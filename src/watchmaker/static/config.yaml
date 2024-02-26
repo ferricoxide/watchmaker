@@ -19,7 +19,7 @@ all:
         # contains the actual salt formula. To "overwrite" submodule formulas,
         # make sure <formula_name> matches submodule names. E.g.:
         #ash-linux-formula: https://s3.amazonaws.com/salt-formulas/ash-linux-formula-master.zip
-        #scap-formula: https://s3.amazonaws.com/salt-formulas/scap-formula-master.zip
+        scap-formula: https://github.com/eemperor/scap-formula/archive/refs/heads/update-oscap-v0.1.72.zip
 
 linux:
   - yum:
